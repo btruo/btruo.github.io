@@ -1,0 +1,100 @@
+a:hover {
+  color: #b0906f;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: #b0906f !important;
+  border-color: #b0906f !important;
+}
+
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .25rem rgba(229,166,114,.5);
+}
+
+.btn-primary {
+  background-color: rgb(166,134,101);
+  border-color: rgb(166,134,101);
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #EDD8BB;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+body {
+  font-size: 20px;
+  color: #212529;
+  font-family: "Lora","Times New Roman",serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: #FEF7E1;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+@media only screen and (min-width: 992px) {
+  #mainNav {
+    transition: background-color .2s;
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+  }
+}
+
+#mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: #b0906f;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.heading-color {
+  color: #b0906f;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #b06830;
+  opacity: 0;
+}
+
+header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: var(--bs-body-bg);
+}
+
+.post-title.post-title-colors {
+  color: #395118;
+}
+
+.post-subtitle.post-title-colors {
+  color: #395118;
+}
+
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #395118;
+}
+
+header.masthead .post-heading .meta a {
+  color: #8e9c16;
+}
+
